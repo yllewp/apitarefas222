@@ -13,7 +13,7 @@ export class AppComponent {
   arrayDeTarefas: Tarefa[] = [];
   apiURL : string;
  constructor(private http: HttpClient) {
-  this.apiURL = 'http://localhost:3000';
+  this.apiURL = 'https://apitarefasulisses242343.com/';
  this.READ_tarefas();
  }
  READ_tarefas() {
