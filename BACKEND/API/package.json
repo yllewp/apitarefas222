@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js 'mongodb+srv://uf242343:147852369@cluster0.qhjru.mongodb.net/tarefasDB?retryWrites=true&w=majority&appName=Cluster0'"
   },
   "author": "",
   "license": "ISC",
