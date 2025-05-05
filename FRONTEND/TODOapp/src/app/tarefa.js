@@ -7,3 +7,4 @@ export class Tarefa {
     this.statusRealizada = _statusRealizada;
     }
    }
+module.exports = Tarefa;
