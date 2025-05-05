@@ -1,4 +1,4 @@
-export class Tarefa {
+class Tarefa {
     _id : string | undefined ;
     descricao: string;
     statusRealizada: boolean;
@@ -7,3 +7,4 @@ export class Tarefa {
     this.statusRealizada = _statusRealizada;
     }
    }
+module.exports = Tarefa;
