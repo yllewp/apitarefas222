@@ -1,4 +1,4 @@
-class Tarefa {
+export class Tarefa {
     _id : string | undefined ;
     descricao: string;
     statusRealizada: boolean;
