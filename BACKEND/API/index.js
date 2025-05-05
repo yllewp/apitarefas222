@@ -10,7 +10,7 @@ app.use((req, res, next) => {
  next();
 });
 app.use(express.json());
-const PORT = "https://apitarefas2.com";
+const PORT = 'http://localhost:3000';
 const routes = require('./routes/routes');
 app.use('/api', routes);
 app.listen(PORT, () => {
